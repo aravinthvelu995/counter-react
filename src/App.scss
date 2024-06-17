@@ -1,0 +1,33 @@
+.wrapper {
+  background-color: #000;
+  padding: 2rem;
+}
+
+.primary-button {
+  color: #f9f4da;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  margin: 1rem;
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+.auto-increment-input {
+  font-size: 2rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.auto-increment-label {
+  color: #f9f4da;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+
+.count {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #f9f4da;
+  margin: 2rem auto;
+}
